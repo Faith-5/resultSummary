@@ -1,0 +1,22 @@
+@media only screen and (max-width: 750px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 50em;
+        position: relative;
+        margin-top: 2em;
+        padding-top: 1em;
+        flex-direction: column;
+    }
+    .container,
+    .container2 {
+        width: 90%
+    }
+}

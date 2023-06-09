@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    width: 700px;
+    height: 65vh;
+    display: flex;
+    border-radius: 2em;
+    box-shadow: 2px -2px 4px rgb(232, 231, 231),
+                -2px 2px 4px rgb(232, 221, 221);
+    background-color: white;
+}
+.container {
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2em;
+    background-color: rgb(8, 8, 176);
+}
+.title {
+    color: rgb(229, 223, 223);
+    font-weight: bold;
+    padding-top: 1.5em;
+}
+.circle {
+    width: 180px;
+    height: 180px;
+    margin-top: 1.6em;
+    position: relative;
+    box-shadow: 1px 1px 5px rgba(255,255,255,.3);
+    background-color: rgb(13, 13, 161);
+    border-radius: 50%;
+}
+.inner {
+    position: absolute;
+    left: 3.8em;
+    top: 3em;
+}
+.score {
+    color: white;
+    font-size: 42px;
+}
+.total {
+    font-size: 16px;
+    width: 100%;
+    padding-left: .5em;
+    color: rgb(238, 235, 235);
+}
+.remark {
+    color: white;
+    padding: 1em;
+    font-size: 29px;
+    font-weight: bold;
+}
+.desc {
+    width: 70%;
+    text-align: center;
+    color: white;
+}
+.container2 {
+    width: 45%;
+    height: 100%;
+    margin: auto;
+}
+.summary {
+    padding: .9em 0;
+}
+.row {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    padding: .6em;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: .7em;
+    background-color: rgba(255,255,0, .1);
+}
+.rowImg {
+    width: 10%;
+    margin: 0 10px 0 0;
+}
+.rowTitle {
+    font-weight: 600;
+}
+.rowSpan {
+    font-size: 17px;
+    position: absolute;
+    right: .6em;
+}
+.button {
+    width: 100%;
+    height: 50px;
+    margin: .3em 0;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(12, 12, 74);
+}
+.row:nth-child(3) {
+    background-color: rgba(255,165,0, .1);
+}
+.row:nth-child(4) {
+    background-color: rgba(0, 0, 254, 0.1);
+}
+.row:nth-child(5) {
+    background-color: rgba(0, 0, 0, 0.1);
+}
